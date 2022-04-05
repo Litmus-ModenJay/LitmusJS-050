@@ -18,6 +18,7 @@
 # misc
 .DS_Store
 *.pem
+.npm
 
 # debug
 npm-debug.log*
@@ -26,7 +27,16 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # local env files
+.env*
 .env*.local
+.env*.development.local
+.env*.test.local
+.env*.production.local
+
+# logs
+logs
+*.log
+npm-debug.log*
 
 # vercel
 .vercel
